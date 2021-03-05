@@ -1,0 +1,1 @@
+- This project focuses on creating a pattern which handles orders for a local smoothie bar. It has a public class named Smoothie which handles all its subclasses, such as SmoothieMaker and its parameters. By setting some mandatory ingredients, optional ingredients and a boolean parameters, the program is free to build a smoothie for an existing customer in the main file.
