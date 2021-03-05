@@ -9,8 +9,7 @@ public class Smoothie {
     private String Milk;
     private boolean Protein;
 
-    //The constructor that takes a builder from which it will create object
-    //the access to this is only provided to builder
+
     private Smoothie(SmoothieMaker builder) {
         this.name = builder.name;
         this.customer = builder.customer;
@@ -28,7 +27,7 @@ public class Smoothie {
         private String Milk;
         private boolean Protein;
 
-        //All Mandatory parameters goes with this constructor
+       
         public SmoothieMaker(String customer, String name, String Fruits, String Milk) {
             this.customer = customer;
             this.name = name;
@@ -36,8 +35,7 @@ public class Smoothie {
             this.Milk = Milk;
         }
 
-        //setters for optional parameters which returns this same builder
-        //to support fluent design
+       
         public SmoothieMaker plusVeggies (String Vegetables) {
             this.Vegetables = Vegetables;
             return this;
@@ -54,7 +52,7 @@ public class Smoothie {
         }
     }
 
-    //getters
+  
     public String getName() {
         return name;
     }
