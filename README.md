@@ -1,5 +1,5 @@
 Design Patterns Projects
 
-1. Builder Design Pattern
+1. Bridge Design Pattern
 
-2. Bridge Design Pattern
+2. Builder Design Pattern
